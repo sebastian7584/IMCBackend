@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)v!x^70-h6o%3=-qlaoz-pkcd2@2ud@!wz8vmvf%xz=m__hml@
 DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['localhost', '137.184.204.38']
+ALLOWED_HOSTS = ['localhost', 'https://api.imcseguridad.com/']
 
 
 
