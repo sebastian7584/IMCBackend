@@ -55,7 +55,8 @@ def adminFormView(request):
           dataFormulario = {'aerolinea':aerolinea,'base':base,'estado':estado}
           newData = {**key, **dataFormulario}
           translate.append(newData)
-      return Response(translate)
+          rev = list(reversed(translate))
+      return Response(rev)
 
     if request.method == "POST":
        
